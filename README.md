@@ -1,4 +1,4 @@
-Here’s the properly formatted README.md file for GitHub:
+ 
 
 ```markdown
 # Cohere API Integration Chatbot (C++)
