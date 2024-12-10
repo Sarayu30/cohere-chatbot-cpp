@@ -96,10 +96,7 @@ AI: I'm doing great! How about you?
 
 - **cURL Error**: If you encounter a `cURL` error, ensure that `libcurl` is correctly installed and accessible in your environment.
 - **JSON Parsing Error**: If there’s an error parsing the API response, check the format of the JSON returned by the API. Make sure the `generations` field is present in the response.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ 
 
 ## Acknowledgements
 
@@ -115,6 +112,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Building and Running the Program**: Provides steps to clone, compile, and run the program.
 - **Example Usage**: Demonstrates how the chatbot works with example input and output.
 - **Troubleshooting**: Offers helpful suggestions for fixing common issues.
-- **License and Acknowledgements**: Includes licensing information and credits.
+ 
 
 This structure should be easy for anyone to follow when setting up and running the project from GitHub.
