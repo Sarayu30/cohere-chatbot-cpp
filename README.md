@@ -78,7 +78,7 @@ std::string apiKey = "YOUR_COHERE_API_KEY";  // Replace with your API key
    Once compiled, run the program using:
 
    ```bash
-   ./cohere_chatbot
+   ./cohere_app
    ```
 
    - The program will prompt you to enter your input.
