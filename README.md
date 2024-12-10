@@ -102,5 +102,5 @@ AI: I'm doing great! How about you?
 - [Cohere API](https://cohere.ai/) for providing the API for text generation.
 - [libcurl](https://curl.se/libcurl/) for handling HTTP requests.
 - [nlohmann::json](https://github.com/nlohmann/json) for JSON parsing in C++.
-```
+
  
