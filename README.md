@@ -1,4 +1,4 @@
- 
+Thank you for the clarification! Here's the updated README with the correct file name `cohere_app.cpp`:
 
 ```markdown
 # Cohere API Integration Chatbot (C++)
@@ -51,9 +51,9 @@ Before running the project, you need to install the following dependencies:
 1. **Cohere API Key**:  
    You'll need an API key from Cohere to use their service. You can obtain it from the [Cohere API documentation](https://cohere.ai/). Replace the placeholder in the code with your own API key.
 
-```cpp
-std::string apiKey = "YOUR_COHERE_API_KEY";  // Replace with your API key
-```
+   ```cpp
+   std::string apiKey = "YOUR_COHERE_API_KEY";  // Replace with your API key
+   ```
 
 ## Building and Running the Program
 
@@ -69,10 +69,10 @@ std::string apiKey = "YOUR_COHERE_API_KEY";  // Replace with your API key
    If you are using a C++ compiler like `g++`, you can compile the program using the following command:
 
    ```bash
-   g++ -std=c++11 -o cohere_chatbot main.cpp -lcurl
+   g++ -std=c++11 -o cohere_app cohere_app.cpp -lcurl
    ```
 
-   This will generate an executable named `cohere_chatbot`.
+   This will generate an executable named `cohere_app`.
 
 3. **Run the Program**:  
    Once compiled, run the program using:
@@ -96,7 +96,6 @@ AI: I'm doing great! How about you?
 
 - **cURL Error**: If you encounter a `cURL` error, ensure that `libcurl` is correctly installed and accessible in your environment.
 - **JSON Parsing Error**: If there’s an error parsing the API response, check the format of the JSON returned by the API. Make sure the `generations` field is present in the response.
- 
 
 ## Acknowledgements
 
@@ -104,14 +103,4 @@ AI: I'm doing great! How about you?
 - [libcurl](https://curl.se/libcurl/) for handling HTTP requests.
 - [nlohmann::json](https://github.com/nlohmann/json) for JSON parsing in C++.
 ```
-
-### Explanation of Structure:
-- **Prerequisites**: Lists the necessary tools and libraries required for the project.
-- **Installing Dependencies**: Provides clear installation steps for `libcurl` and `nlohmann::json`.
-- **Configuration**: Guides the user on setting up the API key for accessing Cohere.
-- **Building and Running the Program**: Provides steps to clone, compile, and run the program.
-- **Example Usage**: Demonstrates how the chatbot works with example input and output.
-- **Troubleshooting**: Offers helpful suggestions for fixing common issues.
  
-
-This structure should be easy for anyone to follow when setting up and running the project from GitHub.
