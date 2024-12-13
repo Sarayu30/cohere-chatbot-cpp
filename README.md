@@ -1,4 +1,4 @@
-Thank you for the clarification! Here's the updated README with the correct file name `cohere_app.cpp`:
+ 
 
 ```markdown
 # Cohere API Integration Chatbot (C++)
